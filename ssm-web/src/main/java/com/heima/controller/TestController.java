@@ -10,6 +10,10 @@ import org.springframework.web.bind.annotation.ResponseBody;
 @Controller
 public class TestController {
 
+	/***
+	 * 测试代码
+	 * @return
+	 */
 	@RequestMapping("/hello")
 	@ResponseBody
 	public Map<String,Object> test(){
